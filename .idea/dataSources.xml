@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="412653158">
+    <data-source source="LOCAL" name="Rails youtube-scrapper: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="0abea593-a299-40df-9530-d7a787b19f4e">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/youtube-scrapper_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea12/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea12/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails youtube-scrapper: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="e813b82a-b536-4008-9bbc-74ccf3246748">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/youtube-scrapper_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea12/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea12/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails youtube-scrapper: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="41dfbdb4-e3be-4ce7-8498-9296cbdf93cc">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:youtube-scrapper_production</jdbc-url>
+      <user-name>youtube-scrapper</user-name>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea12/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea12/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
