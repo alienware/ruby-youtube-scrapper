@@ -11,6 +11,6 @@ class Video < ActiveRecord::Base
 	end
 
 	def recommendation= recommendeer
-		Recommendation.create(:from_id => self.id, :to_id => recommendeer.id)
+		Recommendation.create(:from_id => self.id, :to_id => recommendeer.id) unless recommendeer.nil?
 	end
 end

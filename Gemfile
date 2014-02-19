@@ -43,3 +43,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'mechanize'
+gem 'awesome_print'

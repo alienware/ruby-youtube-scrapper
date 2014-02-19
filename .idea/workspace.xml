@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2d76db0-f335-4084-9980-b876c5ad3c1d" name="Default" comment="" />
+    <list default="true" id="d2d76db0-f335-4084-9980-b876c5ad3c1d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/recommendation.rb" afterPath="$PROJECT_DIR$/app/models/recommendation.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/video.rb" afterPath="$PROJECT_DIR$/app/models/video.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youtube-scrapper.iml" afterPath="$PROJECT_DIR$/youtube-scrapper.iml" />
+    </list>
     <ignored path="youtube-scrapper.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392752546249" ignored="false" />
-    <file path="/Dummy.txt" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392753247152" ignored="false" />
-    <file path="/video.rb" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392758595531" ignored="false" />
+    <file path="/Dummy.txt" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392760728255" ignored="false" />
+    <file path="/video.rb" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392764164474" ignored="false" />
     <file path="/20140218195315_create_videos.rb" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392756774585" ignored="false" />
     <file path="/20140218195411_create_recommendations.rb" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392753894459" ignored="false" />
-    <file path="/recommendation.rb" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392756532547" ignored="false" />
+    <file path="/recommendation.rb" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392766251050" ignored="false" />
+    <file path="/recommendation_scraper.rake" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392771458458" ignored="false" />
+    <file path="/Gemfile" changelist="d2d76db0-f335-4084-9980-b876c5ad3c1d" time="1392760720757" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +92,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="47" column="18" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,10 +107,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="video.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/video.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="338" selection-end="338" vertical-scroll-proportion="0.4609929">
+            <state line="13" column="98" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recommendation_scraper.rake" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/recommendation_scraper.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="109" selection-start="600" selection-end="600" vertical-scroll-proportion="0.47186932">
               <folding />
             </state>
           </provider>
@@ -127,7 +146,7 @@
       <file leaf-file-name="recommendation.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/recommendation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="2" column="59" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,15 +163,25 @@
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
     <option name="ENVIRONMENT" value="development" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/recommendation.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140218195315_create_videos.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140218195411_create_recommendations.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/video.rb" />
+        <option value="$PROJECT_DIR$/app/models/recommendation.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/recommendation_scraper.rake" />
       </list>
     </option>
   </component>
@@ -220,7 +249,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube-scrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube-scrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,38 +282,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube-scrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube-scrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube-scrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube-scrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,6 +402,26 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -755,27 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/recommendation.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140218195315_create_videos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140218195411_create_recommendations.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="55" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
@@ -790,9 +804,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="18" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140218195315_create_videos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/video.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="338" selection-end="338" vertical-scroll-proportion="0.4609929">
+        <state line="13" column="98" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/recommendation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="59" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/recommendation_scraper.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="109" selection-start="600" selection-end="600" vertical-scroll-proportion="0.47186932">
           <folding />
         </state>
       </provider>
